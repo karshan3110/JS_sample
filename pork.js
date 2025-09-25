@@ -7,13 +7,13 @@ g = (s >= 90 && s <= 100) ? "A" :
 
 switch (g) {
     case "A":
-        console.log("Excellent! Grade A");
+        console.log("A");
         break;
     case "B":
-        console.log("Good! Grade B");
+        console.log("B");
         break;
     case "C":
-        console.log("Needs improvement! Grade C");
+        console.log("C");
         break;
     default:
         console.log("Fail");
