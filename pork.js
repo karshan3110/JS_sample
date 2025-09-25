@@ -1,11 +1,11 @@
-let input = prompt("Enter your score:");
-let score = parseInt(input);
-let grade;
-grade = (score >= 90 && score <= 100) ? "A" :
-        (score >= 75 && score < 90) ? "B" :
-        (score >= 50 && score < 75) ? "C" : "D";
+let i = prompt("Enter your score:");
+let s = Number(i);
+let g="n";
+g = (s >= 90 && s <= 100) ? "A" :
+    (s >= 75 && s < 90) ? "B" :
+    (s >= 50 && s < 75) ? "C";
 
-switch (grade) {
+switch (g) {
     case "A":
         console.log("Excellent! Grade A");
         break;
@@ -19,19 +19,20 @@ switch (grade) {
         console.log("Fail");
 }
 
-let numInput = prompt("Enter a number:");
-let num = parseInt(numInput);
+let nI= prompt("Enter a number:");
+let n = Number(nI);
 
-if (num % 2 === 0) {
+if (n % 2 === 0) {
     console.log("Even number");
-} else {
+}
+else {
     console.log("Odd number");
 }
 
-let dayInput = prompt("Enter the day number (1-7):");
-let day = parseInt(dayInput);
+let dI = prompt("Enter the day number (1-7):");
+let d = Number(dI);
 
-switch (day) {
+switch (d) {
     case 1:
         console.log("It's a weekday");
         break;
